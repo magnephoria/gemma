@@ -1,0 +1,24 @@
+<!-- wp:template-part {"slug":"header","theme":"gemma","tagName":"header","className":"site-header"} /-->
+
+<!-- wp:group {"tagName":"main","layout":{"type":"default"}} -->
+<main class="wp-block-group">
+	<!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"var:preset|spacing|60"}}},"layout":{"type":"constrained","justifyContent":"left","contentSize":"70vw"}} -->
+	<div class="wp-block-group" style="margin-top:0;margin-bottom:var(--wp--preset--spacing--60)">
+		<!-- wp:group {"layout":{"type":"default"}} -->
+		<div class="wp-block-group"><!-- wp:query-title {"type":"search"} /--></div>
+		<!-- /wp:group -->
+	</div>
+	<!-- /wp:group -->
+
+	<!-- wp:group {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
+	<div class="wp-block-group" style="margin-bottom:var(--wp--preset--spacing--60)">
+		<!-- wp:search {"label":"Suchen","showLabel":false,"width":100,"widthUnit":"%","buttonText":"Suchen","buttonPosition":"button-inside","style":{"border":{"radius":"100px","width":"1px"}},"fontSize":"medium"} /-->
+	</div>
+	<!-- /wp:group -->
+
+	<!-- wp:pattern {"slug":"gemma/query-list-posts"} /-->
+
+</main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","theme":"gemma","tagName":"footer","className":"site-footer"} /-->
