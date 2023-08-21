@@ -31,7 +31,20 @@ Many thanks to the WordPress team for the "Twenty Twenty-Three" theme, from whic
 
 == Changelog ==
 
-= 0.7 =
+= 0.7.3 =
+* Add pattern 'offset-headline'
+* Update default header
+* Fix query-loop patterns
+* Add language support
+
+= 0.7.2 =
+* Update WordPress and PHP requirements
+* Add styles for new block 'core/details'
+
+= 0.7.1 =
+* Metadata fix
+
+= 0.7.0 =
 * First beta release in the WordPress repository
 
 == Copyright ==
