@@ -3,7 +3,7 @@ Contributors: aventurin
 Requires at least: 6.2
 Tested up to: 6.3
 Requires PHP: 7.4
-Stable tag: 1.0
+Stable tag: 0.8.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -30,6 +30,10 @@ Source: https://github.com/CatharsisFonts/Cormorant
 Many thanks to the WordPress team for the "Twenty Twenty-Three" theme, from which I learned quite a bit about block theme development and best practices.
 
 == Changelog ==
+
+= 0.8.0 =
+* Add patterns for call to actions
+* Add new gradient presets
 
 = 0.7.3 =
 * Add pattern 'offset-headline'
