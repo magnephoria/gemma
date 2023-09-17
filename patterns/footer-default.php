@@ -6,6 +6,7 @@
  * Block Types: core/template-part/footer
  */
 ?>
+
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--80)">
     <!-- wp:group {"align":"full","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","verticalAlignment":"top"}} -->

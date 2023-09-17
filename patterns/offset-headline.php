@@ -6,6 +6,7 @@
  * Block Types: core/heading
  */
 ?>
+
 <!-- wp:group {"align":"full","layout":{"type":"default"}} -->
 <div class="wp-block-group alignfull">
     <!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
