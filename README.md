@@ -7,6 +7,7 @@ Gemma is a simple, modern block theme with responsive typography and an elegant 
 
 - Native Block-Theme
 - Simple and modern design
+- Accessibility-ready
 
 ## Requirements
 

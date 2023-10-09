@@ -31,6 +31,10 @@ Many thanks to the WordPress team for the "Twenty Twenty-Three" theme, from whic
 
 == Changelog ==
 
+= 0.8.1 =
+* Update default serif font to 'Cardo'
+* Fix search template
+
 = 0.8.0 =
 * Add patterns for call to actions
 * Add new gradient presets
