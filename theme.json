@@ -13,59 +13,53 @@
 			"gradients": [
 				{
 					"slug": "primary-to-secondary",
-					"gradient": "linear-gradient(225deg, var(--wp--preset--color--primary) 0%, var(--wp--preset--color--secondary) 100%)",
+					"gradient": "linear-gradient(45deg, var(--wp--preset--color--primary) 0%, var(--wp--preset--color--secondary) 100%)",
 					"name": "Primary to secondary"
 				},
 				{
 					"slug": "primary-to-tertiary",
-					"gradient": "linear-gradient(225deg, var(--wp--preset--color--primary) 0%, var(--wp--preset--color--tertiary) 100%)",
+					"gradient": "linear-gradient(45deg, var(--wp--preset--color--primary) 0%, var(--wp--preset--color--tertiary) 100%)",
 					"name": "Primary to tertiary"
 				},
 				{
 					"slug": "secondary-to-tertiary",
-					"gradient": "linear-gradient(225deg, var(--wp--preset--color--secondary) 0%, var(--wp--preset--color--tertiary) 100%)",
+					"gradient": "linear-gradient(45deg, var(--wp--preset--color--secondary) 0%, var(--wp--preset--color--tertiary) 100%)",
 					"name": "Secondary to Tertiary"
 				},
 				{
-					"slug": "light-blue-to-beige",
-					"gradient": "linear-gradient(225deg, #A4DDEA 0%, #FFE7C3 50%, #FFDBB9 100%)",
-					"name": "Light blue to beige"
-				},
-				{
-					"slug": "green-to-orange",
-					"gradient": "linear-gradient(45deg, #01823A 0%, #FF9F10 100%)",
-					"name": "Green to orange"
+					"slug": "secondary-to-quaternary",
+					"gradient": "linear-gradient(45deg, var(--wp--preset--color--secondary) 0%, var(--wp--preset--color--quaternary) 100%)",
+					"name": "Secondary to Quaternary"
 				}
 			],
 			"palette": [
 				{
-					"color": "#fff",
+					"color": "#FFFCF3",
 					"name": "Base",
 					"slug": "base"
 				},
 				{
-					"color": "#000",
+					"color": "#100F0F",
 					"name": "Contrast",
 					"slug": "contrast"
 				},
 				{
-					"color": "#00833a",
+					"color": "#036420",
 					"name": "Primary",
 					"slug": "primary"
-					
 				},
 				{
-					"color": "#f3f9e4",
+					"color": "#FF9F10",
 					"name": "Secondary",
 					"slug": "secondary"
 				},
 				{
-					"color": "#ff9f10",
+					"color": "#A4DDEA",
 					"name": "Tertiary",
 					"slug": "tertiary"
 				},
 				{
-					"color": "#fffcf3",
+					"color": "#FFF9E7",
 					"name": "Quaternary",
 					"slug": "quaternary"
 				}
@@ -256,7 +250,7 @@
 	},
 	"styles": {
 		"color": {
-			"background": "var(--wp--preset--color--quaternary)",
+			"background": "var(--wp--preset--color--base)",
 			"text": "var(--wp--preset--color--contrast)"
 		},
 		"spacing": {
