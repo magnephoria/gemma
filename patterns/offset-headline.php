@@ -2,7 +2,7 @@
 /**
  * Title: Offset headline
  * Slug: gemma/offset-headline
- * Categories: featured
+ * Categories: text
  * Block Types: core/heading
  */
 ?>

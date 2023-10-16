@@ -3,7 +3,7 @@ Contributors: aventurin
 Requires at least: 6.2
 Tested up to: 6.3
 Requires PHP: 7.4
-Stable tag: 0.8.2
+Stable tag: 0.8.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -35,6 +35,10 @@ Source: https://scholarsfonts.net/cardofnt.html
 Many thanks to the WordPress team for the "Twenty Twenty-Three" theme, from which I learned quite a bit about block theme development and best practices.
 
 == Changelog ==
+
+= 0.8.3 =
+* Update color system
+* Update cta patterns
 
 = 0.8.2 =
 * Fix header + footer for latest Gutenberg
