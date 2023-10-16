@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Call to action
- * Slug: gemma/cta
+ * Slug: gemma/cta-default
  * Categories: featured
  * Keywords: Call to action
  * Block Types: core/buttons

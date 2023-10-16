@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Call to action with image
- * Slug: gemma/cta-with-image
+ * Slug: gemma/cta-image
  * Categories: featured
  * Keywords: Call to action
  * Block Types: core/buttons
