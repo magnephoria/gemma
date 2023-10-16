@@ -3,7 +3,7 @@ Contributors: aventurin
 Requires at least: 6.2
 Tested up to: 6.3
 Requires PHP: 7.4
-Stable tag: 0.8.0
+Stable tag: 0.8.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -22,14 +22,23 @@ Source: https://uncut.wtf/sans-serif/uncut-sans.html
 
 = Cormorant font =
 License: SIL Open Font License, Version 1.1.
-Author: Christian Thalmann (Catharsis Fonts)
+Author: Christian Thalmann (Catharsis Fonts), Cormorant Project Authors
 Source: https://github.com/CatharsisFonts/Cormorant
+
+= Cardo font =
+License: SIL Open Font License, Version 1.1.
+Author: David J. Perry (hospes02@scholarsfonts.net)
+Source: https://scholarsfonts.net/cardofnt.html
 
 == Special Thanks ==
 
 Many thanks to the WordPress team for the "Twenty Twenty-Three" theme, from which I learned quite a bit about block theme development and best practices.
 
 == Changelog ==
+
+= 0.8.2 =
+* Fix header + footer for latest Gutenberg
+* Rename cta patterns to be more concise
 
 = 0.8.1 =
 * Update default serif font to 'Cardo'
