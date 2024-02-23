@@ -8,11 +8,11 @@
  */
 ?>
 
-<!-- wp:cover {"isUserOverlayColor":true,"minHeight":80,"minHeightUnit":"vh","gradient":"primary-to-secondary","contentPosition":"center center","align":"full","style":{"spacing":{"padding":{"right":"var:preset|spacing|70","left":"var:preset|spacing|70","top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"default"}} -->
+<!-- wp:cover {"isUserOverlayColor":true,"minHeight":80,"minHeightUnit":"vh","gradient":"gradient-1","contentPosition":"center center","align":"full","style":{"spacing":{"padding":{"right":"var:preset|spacing|70","left":"var:preset|spacing|70","top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"default"}} -->
 <div class="wp-block-cover alignfull"
     style="padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--70);min-height:80vh">
     <span aria-hidden="true"
-        class="wp-block-cover__background has-background-dim-100 has-background-dim has-background-gradient has-primary-to-secondary-gradient-background"></span>
+        class="wp-block-cover__background has-background-dim-100 has-background-dim has-background-gradient has-gradient-1-gradient-background"></span>
     <div class="wp-block-cover__inner-container"><!-- wp:columns {"align":"full"} -->
         <div class="wp-block-columns alignfull">
             <!-- wp:column {"verticalAlignment":"bottom","width":"66.66%","layout":{"type":"constrained","justifyContent":"left"}} -->

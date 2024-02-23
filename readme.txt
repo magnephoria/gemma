@@ -32,7 +32,7 @@ Source: https://scholarsfonts.net/cardofnt.html
 
 == Special Thanks ==
 
-Many thanks to the WordPress team for the "Twenty Twenty-Three" theme, from which I learned quite a bit about block theme development and best practices.
+Many thanks to the WordPress team for the "Twenty Twenty-Four" theme, from which I learned quite a bit about block theme development and best practices.
 
 == Changelog ==
 

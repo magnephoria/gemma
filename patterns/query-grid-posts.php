@@ -16,7 +16,7 @@
 
         <!-- wp:post-terms {"term":"category","prefix":"✴︎ "} /-->
 
-        <!-- wp:post-title {"isLink":true,"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}}} /-->
+        <!-- wp:post-title {"isLink":true,"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent"}}}}} /-->
 
         <!-- wp:post-date /-->
     </div>
