@@ -93,6 +93,21 @@ if ( ! function_exists( 'gemma_block_styles' ) ) :
 				}',
 			)
 		);
+		// register_block_style(
+		// 	'core/paragraph',
+		// 	array(
+		// 		'name'         => 'label',
+		// 		'label'        => __( 'Label', 'gemma' ),
+		// 		/*
+		// 		 * Styles for the custom label block style
+		// 		 */
+		// 		'inline_style' => '
+		// 		.is-style-label {
+		// 			text-transform: uppercase;
+		// 			letter-spacing: 0.05em;
+		// 		}',
+		// 	)
+		// );
 		register_block_style(
 			'core/navigation-link',
 			array(

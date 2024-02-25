@@ -2,14 +2,14 @@
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Gemma 0.8.5\n"
+"Project-Id-Version: Gemma 0.8.6\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/gemma\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-02-25T13:07:47+01:00\n"
+"POT-Creation-Date: 2024-02-25T22:52:41+01:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.8.1\n"
 "X-Domain: gemma\n"
@@ -46,8 +46,18 @@ msgstr ""
 msgid "Checkmark"
 msgstr ""
 
-#: functions.php:100
+#: functions.php:115
 msgid "With arrow"
+msgstr ""
+
+#: patterns/banner-heading.php
+msgctxt "Pattern title"
+msgid "Banner with heading"
+msgstr ""
+
+#: patterns/banner-hero-default.php
+msgctxt "Pattern title"
+msgid "Hero"
 msgstr ""
 
 #: patterns/call-to-action-default.php
@@ -107,6 +117,11 @@ msgstr ""
 #: patterns/hidden-post-navigation.php:9
 #: patterns/hidden-post-navigation.php:10
 msgid "Posts"
+msgstr ""
+
+#: patterns/media-text.php
+msgctxt "Pattern title"
+msgid "Media text"
 msgstr ""
 
 #: patterns/offset-headline.php

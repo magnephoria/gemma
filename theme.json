@@ -624,6 +624,14 @@
 				},
 				"css": "& .wp-block-post-terms__prefix{color: var(--wp--preset--color--contrast-2);}"
 			},
+			"core/cover": {
+				"spacing": {
+					"padding": {
+						"left": "var(--wp--preset--spacing--40)",
+						"right": "var(--wp--preset--spacing--40)"
+					}
+				}
+			},
 			"core/avatar": {
 				"border": {
 					"radius": "99rem"

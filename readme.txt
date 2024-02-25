@@ -36,6 +36,9 @@ Many thanks to the WordPress team for the "Twenty Twenty-Four" theme, from which
 
 == Changelog ==
 
+= 0.8.6 =
+* Add and update patterns
+
 = 0.8.5 =
 * Update typography
 * Update posts list patterns
