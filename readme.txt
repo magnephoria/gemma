@@ -36,6 +36,14 @@ Many thanks to the WordPress team for the "Twenty Twenty-Four" theme, from which
 
 == Changelog ==
 
+= 0.8.5 =
+* Update typography
+* Update posts list patterns
+* Update comments layout
+
+= 0.8.4 =
+* Rework color system with new colors
+
 = 0.8.3 =
 * Update color system
 * Update cta patterns
