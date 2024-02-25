@@ -1,15 +1,15 @@
-# Copyright (C) 2023 Dennis Seid
+# Copyright (C) 2024 Dennis Seid
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Gemma 0.7.3\n"
+"Project-Id-Version: Gemma 0.8.5\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/gemma\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2023-08-21T15:42:31+02:00\n"
+"POT-Creation-Date: 2024-02-25T13:07:47+01:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.8.1\n"
 "X-Domain: gemma\n"
@@ -34,9 +34,79 @@ msgstr ""
 msgid "https://dennis-seid.de/"
 msgstr ""
 
+#: functions.php:38
+msgid "Arrow icon"
+msgstr ""
+
+#: functions.php:61
+msgid "Pill"
+msgstr ""
+
+#: functions.php:81
+msgid "Checkmark"
+msgstr ""
+
+#: functions.php:100
+msgid "With arrow"
+msgstr ""
+
+#: patterns/call-to-action-default.php
+msgctxt "Pattern title"
+msgid "Call to action"
+msgstr ""
+
+#: patterns/call-to-action-image.php
+msgctxt "Pattern title"
+msgid "Call to action with image"
+msgstr ""
+
 #: patterns/footer-default.php
 msgctxt "Pattern title"
 msgid "Default Footer"
+msgstr ""
+
+#: patterns/hidden-comments.php
+msgctxt "Pattern title"
+msgid "Comments"
+msgstr ""
+
+#: patterns/hidden-comments.php:12
+msgid "Comments"
+msgstr ""
+
+#: patterns/hidden-no-results.php
+msgctxt "Pattern title"
+msgid "No results"
+msgstr ""
+
+#: patterns/hidden-no-results.php:9
+msgctxt "Message explaining that there are no results returned from a search"
+msgid "No posts were found."
+msgstr ""
+
+#: patterns/hidden-post-meta.php
+msgctxt "Pattern title"
+msgid "Post meta"
+msgstr ""
+
+#: patterns/hidden-post-meta.php:20
+msgctxt "Prefix for the post author block: By author name"
+msgid "by"
+msgstr ""
+
+#: patterns/hidden-post-meta.php:25
+msgctxt "Prefix for the post category block: in category name"
+msgid "in "
+msgstr ""
+
+#: patterns/hidden-post-navigation.php
+msgctxt "Pattern title"
+msgid "Post navigation"
+msgstr ""
+
+#: patterns/hidden-post-navigation.php:9
+#: patterns/hidden-post-navigation.php:10
+msgid "Posts"
 msgstr ""
 
 #: patterns/offset-headline.php
@@ -44,29 +114,39 @@ msgctxt "Pattern title"
 msgid "Offset headline"
 msgstr ""
 
-#: patterns/query-grid-posts.php
+#: patterns/posts-3-col.php
 msgctxt "Pattern title"
-msgid "Grid with images"
+msgid "List of posts, 3 columns"
 msgstr ""
 
-#: patterns/query-list-posts.php
+#: patterns/posts-list.php
 msgctxt "Pattern title"
-msgid "List with images"
+msgid "List of posts with images, 1 column"
 msgstr ""
 
 #: theme.json
 msgctxt "Gradient name"
-msgid "Primary to secondary"
+msgid "Accent to Accent / Two"
 msgstr ""
 
 #: theme.json
 msgctxt "Gradient name"
-msgid "Primary to tertiary"
+msgid "Accent to Accent / Three"
 msgstr ""
 
 #: theme.json
 msgctxt "Gradient name"
-msgid "Secondary to Tertiary"
+msgid "Accent / Three to Accent / Four"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Accent to Accent / Four"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Accent to Accent / Five"
 msgstr ""
 
 #: theme.json
@@ -76,27 +156,47 @@ msgstr ""
 
 #: theme.json
 msgctxt "Color name"
+msgid "Base / Two"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
 msgid "Contrast"
 msgstr ""
 
 #: theme.json
 msgctxt "Color name"
-msgid "Primary"
+msgid "Contrast / Two"
 msgstr ""
 
 #: theme.json
 msgctxt "Color name"
-msgid "Secondary"
+msgid "Contrast / Three"
 msgstr ""
 
 #: theme.json
 msgctxt "Color name"
-msgid "Tertiary"
+msgid "Accent"
 msgstr ""
 
 #: theme.json
 msgctxt "Color name"
-msgid "Quaternary"
+msgid "Accent / Two"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Accent / Three"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Accent / Four"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Accent / Five"
 msgstr ""
 
 #: theme.json
@@ -137,6 +237,11 @@ msgstr ""
 #: theme.json
 msgctxt "Font family name"
 msgid "Uncut Sans"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Cardo"
 msgstr ""
 
 #: theme.json
