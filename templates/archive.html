@@ -1,19 +1,15 @@
-<!-- wp:template-part {"slug":"header","area":"header","tagName":"header"} /-->
+<!-- wp:template-part {"slug":"header","theme":"gemma","tagName":"header","className":"site-header"} /-->
 
 <!-- wp:group {"tagName":"main","layout":{"type":"default"}} -->
 <main class="wp-block-group">
     <!-- wp:spacer {"height":"var:preset|spacing|80"} -->
     <div style="height:var(--wp--preset--spacing--80)" aria-hidden="true" class="wp-block-spacer"></div>
     <!-- /wp:spacer -->
-
+    
     <!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"var:preset|spacing|60"}}},"layout":{"type":"constrained","justifyContent":"left","contentSize":"70vw"}} -->
     <div class="wp-block-group" style="margin-top:0;margin-bottom:var(--wp--preset--spacing--60)">
         <!-- wp:group {"layout":{"type":"default"}} -->
-        <div class="wp-block-group">
-            <!-- wp:heading {"level":1} -->
-            <h1 class="wp-block-heading">Posts</h1>
-            <!-- /wp:heading -->
-        </div>
+        <div class="wp-block-group"><!-- wp:query-title {"type":"archive"} /--></div>
         <!-- /wp:group -->
     </div>
     <!-- /wp:group -->
@@ -26,4 +22,4 @@
 </main>
 <!-- /wp:group -->
 
-<!-- wp:template-part {"slug":"footer","area":"footer","tagName":"footer"} /-->
+<!-- wp:template-part {"slug":"footer","theme":"gemma","tagName":"footer","className":"site-footer"} /-->

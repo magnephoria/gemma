@@ -1,8 +1,8 @@
 <?php
 /**
- * Title: List with images
+ * Title: List of posts with images, 1 column
  * Slug: gemma/query-list-posts
- * Categories: query
+ * Categories: query, posts
  * Block Types: core/query
  */
 ?>
