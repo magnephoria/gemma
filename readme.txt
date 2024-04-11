@@ -1,9 +1,9 @@
 === Gemma ===
 Contributors: aventurin
 Requires at least: 6.2
-Tested up to: 6.4
+Tested up to: 6.5
 Requires PHP: 7.4
-Stable tag: 0.8.6
+Stable tag: 0.8.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -20,21 +20,21 @@ License: SIL Open Font License, Version 1.1.
 Author: UNCUT.wtf
 Source: https://uncut.wtf/sans-serif/uncut-sans.html
 
-= Cormorant font =
+= Newsreader font =
 License: SIL Open Font License, Version 1.1.
-Author: Christian Thalmann (Catharsis Fonts), Cormorant Project Authors
-Source: https://github.com/CatharsisFonts/Cormorant
-
-= Cardo font =
-License: SIL Open Font License, Version 1.1.
-Author: David J. Perry (hospes02@scholarsfonts.net)
-Source: https://scholarsfonts.net/cardofnt.html
+Author: Production Type, Newsreader Project Authors
+Source: http://github.com/productiontype/Newsreader
 
 == Special Thanks ==
 
 Many thanks to the WordPress team for the "Twenty Twenty-Four" theme, from which I learned quite a bit about block theme development and best practices.
 
 == Changelog ==
+
+= 0.8.7 =
+* Adjust layout
+* Update default serif font to 'Newsreader'
+* Removed beta patterns
 
 = 0.8.6 =
 * Add and update patterns
