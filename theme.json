@@ -153,25 +153,25 @@
 				{
 					"fluid": {
 						"min": "2rem",
-						"max": "3.25rem"
+						"max": "2.65rem"
 					},
-					"size": "3.25rem",
+					"size": "2.65rem",
 					"slug": "large"
 				},
 				{
 					"fluid": {
 						"min": "2.25rem",
-						"max": "4rem"
+						"max": "3.5rem"
 					},
-					"size": "4rem",
+					"size": "3.5rem",
 					"slug": "x-large"
 				},
 				{
 					"fluid": {
 						"min": "2.65rem",
-						"max": "8rem"
+						"max": "5.25rem"
 					},
-					"size": "8rem",
+					"size": "5.25rem",
 					"slug": "xx-large"
 				}
 			],
@@ -199,57 +199,17 @@
 					]
 				},
 				{
-					"fontFamily": "Cardo, TimesNewRoman, \"Times New Roman\", Times, serif",
-					"name": "Cardo",
+					"fontFamily": "\"Newsreader\", TimesNewRoman, \"Times New Roman\", Times, serif",
+					"name": "Newsreader",
 					"slug": "heading",
 					"fontFace": [
 						{
-							"fontFamily": "Cardo",
-							"fontStyle": "normal",
-							"fontWeight": "400",
-							"src": [
-								"file:./assets/fonts/cardo/cardo_normal_400.woff2"
-							]
-						},
-						{
-							"fontFamily": "Cardo",
-							"fontStyle": "italic",
-							"fontWeight": "400",
-							"src": [
-								"file:./assets/fonts/cardo/cardo_italic_400.woff2"
-							]
-						},
-						{
-							"fontFamily": "Cardo",
-							"fontStyle": "normal",
-							"fontWeight": "700",
-							"src": [
-								"file:./assets/fonts/cardo/cardo_normal_700.woff2"
-							]
-						}
-					]
-				},
-				{
-					"fontFamily": "\"Cormorant\", TimesNewRoman, \"Times New Roman\", Times, serif",
-					"name": "Cormorant",
-					"slug": "cormorant",
-					"fontFace": [
-						{
-							"fontFamily": "Cormorant",
+							"fontFamily": "Newsreader",
 							"fontStretch": "normal",
 							"fontStyle": "normal",
-							"fontWeight": "300 700",
+							"fontWeight": "200 800",
 							"src": [
-								"file:./assets/fonts/cormorant/Cormorant[wght].woff2"
-							]
-						},
-						{
-							"fontFamily": "Cormorant",
-							"fontStretch": "normal",
-							"fontStyle": "italic",
-							"fontWeight": "300 700",
-							"src": [
-								"file:./assets/fonts/cormorant/Cormorant-Italic[wght].woff2"
+								"file:./assets/fonts/newsreader/Newsreader[opsz,wght].woff2"
 							]
 						}
 					]
@@ -302,58 +262,58 @@
 			"h2": {
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--heading)",
-					"fontWeight": "500",
+					"fontWeight": "400",
 					"lineHeight": "1.2",
 					"fontSize": "var(--wp--preset--font-size--x-large)"
 				},
 				"color": {
-					"text": "var(--wp--preset--color--accent)"
+					"text": "var(--wp--preset--color--accent-2)"
 				}
 			},
 			"h3": {
 				"typography": {
 					"fontFamily": {"ref": "styles.elements.h2.typography.fontFamily"},
-					"fontWeight": {"ref": "styles.elements.h2.typography.fontWeight"},
+					"fontWeight": "400",
 					"lineHeight": "1.2",
 					"fontSize": "var(--wp--preset--font-size--large)"
 				},
 				"color": {
-					"text": "var(--wp--preset--color--accent)"
+					"text": {"ref": "styles.elements.h2.color.text"}
 				}
 			},
 			"h4": {
 				"typography": {
 					"fontFamily": {"ref": "styles.elements.h2.typography.fontFamily"},
-					"fontWeight": {"ref": "styles.elements.h2.typography.fontWeight"},
+					"fontWeight": "400",
 					"lineHeight": "1.5",
 					"fontSize": "var(--wp--preset--font-size--medium)"
 				},
 				"color": {
-					"text": "var(--wp--preset--color--accent)"
+					"text": {"ref": "styles.elements.h2.color.text"}
 				}
 			},
 			"h5": {
 				"typography": {
 					"fontFamily": {"ref": "styles.elements.h2.typography.fontFamily"},
-					"fontWeight": {"ref": "styles.elements.h2.typography.fontWeight"},
+					"fontWeight": "400",
 					"lineHeight": "1.2",
 					"fontSize": "var(--wp--preset--font-size--small)"
 				},
 				"color": {
-					"text": "var(--wp--preset--color--accent)"
+					"text": {"ref": "styles.elements.h2.color.text"}
 				}
 			},
 			"h6": {
 				"typography": {
 					"fontFamily": {"ref": "styles.elements.h2.typography.fontFamily"},
-					"fontWeight": {"ref": "styles.elements.h2.typography.fontWeight"},
+					"fontWeight": "400",
 					"lineHeight": "1.2",
 					"textTransform": "uppercase",
-					"letterSpacing": "2px",
+					"letterSpacing": "0.0125em",
 					"fontSize": "var(--wp--preset--font-size--small)"
 				},
 				"color": {
-					"text": "var(--wp--preset--color--accent)"
+					"text": {"ref": "styles.elements.h2.color.text"}
 				}
 			},
 			"button": {
@@ -468,9 +428,6 @@
 					"fontSize": "var(--wp--preset--font-size--medium)"
 				}
 			},
-			"core/navigation-submenu": {
-				"css": "&:not(.has-background).wp-block-navigation__submenu-container { background: var(--wp--preset--color--accent-2); border: none; }"
-			},
 			"core/buttons": {
 				"spacing": {
 					"blockGap": "1.618rem"
@@ -493,7 +450,7 @@
 			},
 			"core/quote": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--heading)"
+					"fontFamily": "var(--wp--preset--font-family--body)"
 				},
 				"color": {
 					"text": "var(--wp--preset--color--accent)"
@@ -578,7 +535,7 @@
 					}
 				},
 				"typography": {
-					"fontWeight": "500"
+					"fontWeight": {"ref": "styles.elements.h1.typography.fontWeight"}
 				},
 				"elements": {
 					"link": {
@@ -619,9 +576,6 @@
 						}
 					}
 				},
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--small)"
-				},
 				"css": "& .wp-block-post-terms__prefix{color: var(--wp--preset--color--contrast-2);}"
 			},
 			"core/cover": {
@@ -638,9 +592,6 @@
 				}
 			},
 			"core/post-author": {
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--small)"
-				},
 				"css": "&__avatar{border-radius: 99rem; overflow: hidden; aspect-ratio: 1/1;}"
 			},
 			"core/post-author-name": {
@@ -655,9 +606,6 @@
 							"textDecoration": "none"
 						}
 					}
-				},
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--small)"
 				}
 			},
 			"core/post-date": {
@@ -678,9 +626,6 @@
 							"textDecoration": "none"
 						}
 					}
-				},
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--small)"
 				}
 			},
 			"core/post-navigation-link": {
