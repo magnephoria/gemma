@@ -3,7 +3,7 @@ Contributors: aventurin
 Requires at least: 6.2
 Tested up to: 6.5
 Requires PHP: 7.4
-Stable tag: 0.8.7
+Stable tag: 0.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,7 +13,9 @@ Gemma is a simple and modern block theme with responsive typography and an elega
 
 == Resources ==
 
-Gemma WordPress Theme bundles the following third-party resources:
+This theme bundles the following third-party resources:
+
+=== Fonts ===
 
 = Uncut Sans font =
 License: SIL Open Font License, Version 1.1.
@@ -25,11 +27,21 @@ License: SIL Open Font License, Version 1.1.
 Author: Production Type, Newsreader Project Authors
 Source: http://github.com/productiontype/Newsreader
 
+=== Images ===
+
+License: https://www.pexels.com/license/
+
+Banner image in theme screenshot – https://www.pexels.com/photo/woman-touches-her-chin-using-her-right-hand-1856142/
+
 == Special Thanks ==
 
 Many thanks to the WordPress team for the "Twenty Twenty-Four" theme, from which I learned quite a bit about block theme development and best practices.
 
 == Changelog ==
+
+= 0.9 =
+* New typography and layout concept
+* New color system
 
 = 0.8.7 =
 * Adjust layout
