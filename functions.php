@@ -67,7 +67,7 @@ if ( ! function_exists( 'gemma_block_styles' ) ) :
 				.is-style-pill a,
 				.is-style-pill span:not([class], [data-rich-text-placeholder]) {
 					display: inline-block;
-					border: 2px solid var(--wp--preset--color--contrast);
+					border: 1px solid var(--wp--preset--color--contrast);
 					padding: 0.2rem 0.8rem;
                     margin: 0.1rem 0;
 					border-radius: 99rem;
@@ -126,6 +126,42 @@ if ( ! function_exists( 'gemma_block_styles' ) ) :
 				}',
 			)
 		);
+		// register_block_style(
+		// 	'core/heading',
+		// 	array(
+		// 		'name'         => 'separator',
+		// 		'label'        => __( 'With separator', 'gemma' ),
+		// 		'inline_style' => "
+		// 		.is-style-separator:after {
+		// 			content: '';
+		// 			width: var(--wp--preset--spacing--60);
+		// 			height: 0.4em;
+		// 			border-bottom: 1px solid var(--wp--preset--color--contrast, currentColor);
+		// 			display: block;
+		// 		}
+
+		// 		/* Hide the separator if the heading has no content, to avoid using empty headings to display the separator only, which is an A11Y issue */
+		// 		.is-style-separator:empty:after {
+		// 			content: none;
+		// 		}
+
+		// 		.is-style-separator:-moz-only-whitespace:after {
+		// 			content: none;
+		// 		}
+
+		// 		.is-style-separator.has-text-align-center:after {
+		// 			margin: 0 auto;
+		// 		}
+
+		// 		.is-style-separator.has-text-align-right:after {
+		// 			margin-left: auto;
+		// 		}
+
+		// 		.rtl .is-style-separator.has-text-align-left:after {
+		// 			margin-right: auto;
+		// 		}",
+		// 	)
+		// );
 	}
 endif;
 
