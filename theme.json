@@ -1,6 +1,6 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
-	"version": 2,
+	"version": 3,
 	"settings": {
 		"appearanceTools": true,
 		"useRootPaddingAwareAlignments": true,
@@ -9,8 +9,8 @@
 			"wideSize": "1400px"
 		},
 		"color": {
-			"custom": true,
 			"defaultPalette": false,
+			"custom": true,
 			"gradients": [
 				{
 					"slug": "gradient-1",
@@ -55,12 +55,12 @@
 					"slug": "contrast"
 				},
 				{
-					"color": "#594F43",
+					"color": "#525056",
 					"name": "Contrast / Two",
 					"slug": "contrast-2"
 				},
 				{
-					"color": "#999183",
+					"color": "#939098",
 					"name": "Contrast / Three",
 					"slug": "contrast-3"
 				},
@@ -92,45 +92,49 @@
 			]
 		},
 		"spacing": {
+			"defaultSpacingSizes": false,
 			"customSpacingSize": true,
-			"spacingScale": {
-				"steps": 0
-			},
 			"spacingSizes": [
+				{
+					"size": "clamp(0.85rem, 3vw, 1rem)",
+					"slug": "20",
+					"name": "1"
+				},
 				{
 					"size": "clamp(1.5rem, 5vw, 2rem)",
 					"slug": "30",
-					"name": "1"
+					"name": "2"
 				},
 				{
 					"size": "clamp(1.8rem, 1.8rem + ((1vw - 0.48rem) * 2.885), 3rem)",
 					"slug": "40",
-					"name": "2"
+					"name": "3"
 				},
 				{
 					"size": "clamp(2.5rem, 8vw, 4.5rem)",
 					"slug": "50",
-					"name": "3"
+					"name": "4"
 				},
 				{
 					"size": "clamp(3.75rem, 10vw, 7rem)",
 					"slug": "60",
-					"name": "4"
+					"name": "5"
 				},
 				{
 					"size": "clamp(5rem, 5.25rem + ((1vw - 0.48rem) * 9.096), 8rem)",
 					"slug": "70",
-					"name": "5"
+					"name": "6"
 				},
 				{
 					"size": "clamp(7rem, 14vw, 11rem)",
 					"slug": "80",
-					"name": "6"
+					"name": "7"
 				}
 			],
 			"units": ["%", "px", "em", "rem", "vh", "vw"]
 		},
 		"typography": {
+			"defaultFontSizes": false,
 			"dropCap": false,
 			"fluid": true,
 			"fontSizes": [
@@ -235,9 +239,7 @@
 		"spacing": {
 			"blockGap": "2.5rem",
 			"padding": {
-				"top": "var(--wp--preset--spacing--30)",
 				"right": "var(--wp--preset--spacing--40)",
-				"bottom": "var(--wp--preset--spacing--30)",
 				"left": "var(--wp--preset--spacing--40)"
 			}
 		},
@@ -720,6 +722,7 @@
 			},
 			"core/separator": {
 				"border": {
+					"color": "currentColor",
 					"style": "solid",
 					"width": "0 0 1px 0"
 				},
