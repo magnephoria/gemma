@@ -8,6 +8,9 @@
 
 <!-- wp:comments {"className":"wp-block-comments-query-loop"} -->
 <div class="wp-block-comments wp-block-comments-query-loop">
+	<!-- wp:separator {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|40"}}},"backgroundColor":"contrast-3","className":"is-style-wide"} -->
+	<hr class="wp-block-separator has-text-color has-contrast-3-color has-alpha-channel-opacity has-contrast-3-background-color has-background is-style-wide" style="margin-bottom:var(--wp--preset--spacing--40)" />
+	<!-- /wp:separator -->
 	<!-- wp:heading -->
 	<h2><?php esc_html_e( 'Comments', 'gemma' ); ?></h2>
 	<!-- /wp:heading -->

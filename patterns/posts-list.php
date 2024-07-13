@@ -15,9 +15,9 @@
         <div class="wp-block-group" style="border-bottom-color:var(--wp--preset--color--contrast-3);border-bottom-width:1px">
             <!-- wp:group {"style":{"spacing":{"padding":{"top":"12px","bottom":"12px"},"blockGap":"0"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
             <div class="wp-block-group" style="padding-top:12px;padding-bottom:12px">
-                <!-- wp:post-date {"textAlign":"left","format":null,"isLink":false,"style":{"spacing":{"margin":{"top":"0","right":"0","bottom":"0","left":"0"}}}} /-->
-        
-                <!-- wp:post-terms {"term":"category","className":"is-style-default"} /-->
+                <!-- wp:post-date {"textAlign":"left","format":null,"isLink":false,"style":{"spacing":{"margin":{"top":"0","right":"0","bottom":"0","left":"0"}}},"fontSize":"small"} /-->
+                
+                <!-- wp:post-terms {"term":"category","className":"is-style-default","fontSize":"small"} /-->
             </div>
             <!-- /wp:group -->
         </div>
@@ -44,15 +44,20 @@
     <!-- /wp:group -->
     <!-- /wp:post-template -->
 
-    <!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
+    <!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}}} -->
 	<div class="wp-block-group alignfull" style="margin-top:var(--wp--preset--spacing--60)">
-		<!-- wp:query-pagination {"paginationArrow":"arrow","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
-		<!-- wp:query-pagination-previous {"label":""} /-->
+		<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|30"}},"border":{"top":{"color":"var:preset|color|contrast-3","width":"1px"},"right":{},"bottom":{},"left":{}}},"layout":{"type":"default"}} -->
+        <div class="wp-block-group"
+            style="border-top-color:var(--wp--preset--color--contrast-3);border-top-width:1px;padding-top:var(--wp--preset--spacing--30)">
+            <!-- wp:query-pagination {"paginationArrow":"arrow","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
+            <!-- wp:query-pagination-previous {"label":""} /-->
 
-		<!-- wp:query-pagination-numbers /-->
+            <!-- wp:query-pagination-numbers /-->
 
-		<!-- wp:query-pagination-next {"label":""} /-->
-		<!-- /wp:query-pagination -->
+            <!-- wp:query-pagination-next {"label":""} /-->
+            <!-- /wp:query-pagination -->
+        </div>
+        <!-- /wp:group -->
 	</div>
 	<!-- /wp:group -->
 </div>
