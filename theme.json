@@ -10,6 +10,8 @@
 		},
 		"color": {
 			"defaultPalette": false,
+			"defaultGradients": true,
+			"defaultDuotone": true,
 			"custom": true,
 			"gradients": [
 				{
@@ -55,39 +57,48 @@
 					"slug": "contrast"
 				},
 				{
-					"color": "#525056",
+					"color": "#65626A",
 					"name": "Contrast / Two",
 					"slug": "contrast-2"
 				},
 				{
-					"color": "#939098",
+					"color": "#B1AFB6",
 					"name": "Contrast / Three",
 					"slug": "contrast-3"
 				},
 				{
-					"color": "#E1E5C7",
+					"color": "#DADEBA",
 					"name": "Accent",
 					"slug": "accent"
 				},
 				{
-					"color": "#EBE2CC",
+					"color": "#E8DEC4",
 					"name": "Accent / Two",
 					"slug": "accent-2"
 				},
 				{
-					"color": "#ECDFE5",
+					"color": "#E0CCD5",
 					"name": "Accent / Three",
 					"slug": "accent-3"
 				},
 				{
-					"color": "#E2E0EB",
+					"color": "#D1CDDF",
 					"name": "Accent / Four",
 					"slug": "accent-4"
 				},
 				{
-					"color": "#DBE8EE",
+					"color": "#C8DCE4",
 					"name": "Accent / Five",
 					"slug": "accent-5"
+				}
+			],
+			"duotone": [
+				{
+					"colors": [
+						"#111111", "#E8DEC4"
+					],
+					"slug": "duotone-1",
+					"name": "Black and pastel gold"
 				}
 			]
 		},
@@ -431,7 +442,7 @@
 				}
 			},
 			"core/navigation-submenu": {
-				"css": "&:not(.has-background).wp-block-navigation__submenu-container { background: var(--wp--preset--color--accent); border: none; }"
+				"css": "&.has-background.wp-block-navigation__submenu-container { border: none !important; }"
 			},
 			"core/buttons": {
 				"spacing": {

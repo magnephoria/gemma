@@ -3,13 +3,13 @@ Contributors: aventurin
 Requires at least: 6.2
 Tested up to: 6.5
 Requires PHP: 7.4
-Stable tag: 0.9
+Stable tag: 0.9.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Gemma is a simple and modern block theme with responsive typography and an elegant style. With the power of Full Site Editing it is perfect for creating versatile and beautiful websites.
+Gemma is an elegantly styled and modern block theme. Create versatile and beautiful websites with the power of the block editor.
 
 == Resources ==
 
@@ -39,7 +39,12 @@ Many thanks to the WordPress team for the "Twenty Twenty-Four" theme, from which
 
 == Changelog ==
 
-= 0.9 =
+= 0.9.1 =
+* Update to theme.json v3
+* Update stylistic elements
+* Tweak spacing and color presets
+
+= 0.9.0 =
 * New typography and layout concept
 * New color system
 
