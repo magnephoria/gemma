@@ -226,6 +226,15 @@
 							"src": [
 								"file:./assets/fonts/newsreader/Newsreader[opsz,wght].woff2"
 							]
+						},
+						{
+							"fontFamily": "Newsreader",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "200 800",
+							"src": [
+								"file:./assets/fonts/newsreader/Newsreader-Italic[opsz,wght].woff2"
+							]
 						}
 					]
 				},
