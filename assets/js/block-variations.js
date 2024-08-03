@@ -1,16 +1,18 @@
 /**
  * Register block variations.
  * 
- * @link https://developer.wordpress.org/block-editor/reference-guides/block-api/block-variations/
+ * @link https://developer.wordpress.org/themes/features/block-variations/
  */
 
-// wp.blocks.registerBlockVariation(
-//     'core/paragraph',
-//     {
-//         name: 'paragraph-custom',
-//         title: 'Paragraph Custom',
-//         attributes: {
-//             backgroundColor: 'accent'
-//         },
-//     }
-// );
+const { registerBlockVariation } = wp.blocks;
+const { __ } = wp.i18n;
+
+registerBlockVariation('core/spacer', {
+    name: 'gemma/spacer',
+    attributes: {
+        height: 'var:preset|spacing|60'
+    },
+    isDefault: true,
+    isActive: (blockAttributes) =>
+        blockAttributes.height && 'var:preset|spacing|60' === blockAttributes.height
+});

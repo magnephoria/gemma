@@ -22,27 +22,31 @@ add_action( 'after_setup_theme', 'gemma_load_theme_textdomain' );
  * Enqueue block variations.
  */
 
-// if ( ! function_exists( 'gemma_block_variations' ) ) :
-// 	/**
-// 	 * Enqueue custom block variations
-// 	 *
-// 	 * @since Gemma 0.9.2
-// 	 * @return void
-// 	 */
-// 	function gemma_block_variations() {
+if ( ! function_exists( 'gemma_block_variations' ) ) :
+	/**
+	 * Enqueue custom block variations
+	 *
+	 * @since Gemma 0.9.2
+	 * @return void
+	 */
+	function gemma_block_variations() {
 
-// 		wp_enqueue_script(
-// 			'gemma-block-variations',
-// 			get_theme_file_uri( '/assets/js/block-variations.js' ),
-// 			array( 'wp-blocks', 'wp-dom-ready' ),
-// 			wp_get_theme()->get( 'Version' ),
-// 			false
-// 		);
+		wp_enqueue_script(
+			'gemma-block-variations',
+			get_theme_file_uri( '/assets/js/block-variations.js' ),
+			array( 
+				'wp-blocks', 
+				'wp-dom-ready',
+				'wp-i18n'
+			),
+			wp_get_theme()->get( 'Version' ),
+			true
+		);
 
-// 	}
-// endif;
+	}
+endif;
 
-// add_action( 'enqueue_block_editor_assets', 'gemma_block_variations' );
+add_action( 'enqueue_block_editor_assets', 'gemma_block_variations' );
 
 /**
  * Register block styles.
