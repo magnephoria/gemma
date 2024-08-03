@@ -8,8 +8,8 @@
 
 <!-- wp:group {"layout":{"type":"default"}} -->
 <div class="wp-block-group">
-	<!-- wp:group {"style":{"spacing":{"blockGap":"0.3em"}},"layout":{"type":"flex","justifyContent":"center"},"fontSize":"small","fontFamily":"body"} -->
-	<div class="wp-block-group has-body-font-family has-small-font-size">
+	<!-- wp:group {"style":{"spacing":{"blockGap":"0.3em"},"typography":{"textTransform":"uppercase","letterSpacing":"0.1em"}},"fontSize":"small","fontFamily":"body","layout":{"type":"flex","justifyContent":"center"}} -->
+	<div class="wp-block-group has-body-font-family has-small-font-size" style="letter-spacing:0.1em;text-transform:uppercase">
 		<!-- wp:post-date {"format":null,"isLink":false} /-->
 
 		<!-- wp:paragraph {"textColor":"contrast-2"} -->
