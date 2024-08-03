@@ -19,6 +19,32 @@ function gemma_load_theme_textdomain() {
 add_action( 'after_setup_theme', 'gemma_load_theme_textdomain' );
 
 /**
+ * Enqueue block variations.
+ */
+
+// if ( ! function_exists( 'gemma_block_variations' ) ) :
+// 	/**
+// 	 * Enqueue custom block variations
+// 	 *
+// 	 * @since Gemma 0.9.2
+// 	 * @return void
+// 	 */
+// 	function gemma_block_variations() {
+
+// 		wp_enqueue_script(
+// 			'gemma-block-variations',
+// 			get_theme_file_uri( '/assets/js/block-variations.js' ),
+// 			array( 'wp-blocks', 'wp-dom-ready' ),
+// 			wp_get_theme()->get( 'Version' ),
+// 			false
+// 		);
+
+// 	}
+// endif;
+
+// add_action( 'enqueue_block_editor_assets', 'gemma_block_variations' );
+
+/**
  * Register block styles.
  */
 
@@ -26,7 +52,7 @@ if ( ! function_exists( 'gemma_block_styles' ) ) :
 	/**
 	 * Register custom block styles
 	 *
-	 * @since Gemma 1.0
+	 * @since Gemma 0.7
 	 * @return void
 	 */
 	function gemma_block_styles() {
@@ -93,21 +119,22 @@ if ( ! function_exists( 'gemma_block_styles' ) ) :
 				}',
 			)
 		);
-		// register_block_style(
-		// 	'core/paragraph',
-		// 	array(
-		// 		'name'         => 'label',
-		// 		'label'        => __( 'Label', 'gemma' ),
-		// 		/*
-		// 		 * Styles for the custom label block style
-		// 		 */
-		// 		'inline_style' => '
-		// 		.is-style-label {
-		// 			text-transform: uppercase;
-		// 			letter-spacing: 0.05em;
-		// 		}',
-		// 	)
-		// );
+		register_block_style(
+			'core/paragraph',
+			array(
+				'name'         => 'all-caps',
+				'label'        => __( 'All caps', 'gemma' ),
+				/*
+				 * Styles for the custom all caps block style
+				 */
+				'inline_style' => '
+				:root :where(.is-style-all-caps) {
+					text-transform: uppercase;
+					letter-spacing: 0.1em;
+					font-feature-settings: "case" 1;
+				}',
+			)
+		);
 		register_block_style(
 			'core/navigation-link',
 			array(
@@ -126,42 +153,6 @@ if ( ! function_exists( 'gemma_block_styles' ) ) :
 				}',
 			)
 		);
-		// register_block_style(
-		// 	'core/heading',
-		// 	array(
-		// 		'name'         => 'separator',
-		// 		'label'        => __( 'With separator', 'gemma' ),
-		// 		'inline_style' => "
-		// 		.is-style-separator:after {
-		// 			content: '';
-		// 			width: var(--wp--preset--spacing--60);
-		// 			height: 0.4em;
-		// 			border-bottom: 1px solid var(--wp--preset--color--contrast, currentColor);
-		// 			display: block;
-		// 		}
-
-		// 		/* Hide the separator if the heading has no content, to avoid using empty headings to display the separator only, which is an A11Y issue */
-		// 		.is-style-separator:empty:after {
-		// 			content: none;
-		// 		}
-
-		// 		.is-style-separator:-moz-only-whitespace:after {
-		// 			content: none;
-		// 		}
-
-		// 		.is-style-separator.has-text-align-center:after {
-		// 			margin: 0 auto;
-		// 		}
-
-		// 		.is-style-separator.has-text-align-right:after {
-		// 			margin-left: auto;
-		// 		}
-
-		// 		.rtl .is-style-separator.has-text-align-left:after {
-		// 			margin-right: auto;
-		// 		}",
-		// 	)
-		// );
 	}
 endif;
 
