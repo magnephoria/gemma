@@ -11,13 +11,13 @@
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull"
 	style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)">
+	<!-- wp:paragraph {"align":"center","className":"is-style-all-caps","fontSize":"small"} -->
+	<p class="has-text-align-center is-style-all-caps has-small-font-size">Build with ease</p>
+	<!-- /wp:paragraph -->
+
 	<!-- wp:heading {"textAlign":"center","level":1} -->
 	<h1 class="wp-block-heading has-text-align-center">Create a site with block patterns</h1>
 	<!-- /wp:heading -->
-
-	<!-- wp:separator {"className":"is-style-default"} -->
-	<hr class="wp-block-separator has-alpha-channel-opacity is-style-default" />
-	<!-- /wp:separator -->
 
 	<!-- wp:paragraph {"align":"center"} -->
 	<p class="has-text-align-center">Gemma is a simple, modern block theme with responsive typography and an elegant style.</p>
