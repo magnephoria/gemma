@@ -52,17 +52,17 @@
 					"slug": "base-2"
 				},
 				{
-					"color": "#24231F",
+					"color": "#3A3017",
 					"name": "Contrast",
 					"slug": "contrast"
 				},
 				{
-					"color": "#39442b",
+					"color": "#605432",
 					"name": "Contrast / Two",
 					"slug": "contrast-2"
 				},
 				{
-					"color": "#B1AFB6",
+					"color": "#BFB088",
 					"name": "Contrast / Three",
 					"slug": "contrast-3"
 				},
@@ -278,7 +278,7 @@
 					"fontSize": "var(--wp--preset--font-size--xx-large)"
 				},
 				"color": {
-					"text": "var(--wp--preset--color--contrast-2)"
+					"text": "var(--wp--preset--color--contrast)"
 				}
 			},
 			"h2": {
@@ -289,7 +289,7 @@
 					"fontSize": "var(--wp--preset--font-size--x-large)"
 				},
 				"color": {
-					"text": "var(--wp--preset--color--contrast-2)"
+					"text": "var(--wp--preset--color--contrast)"
 				}
 			},
 			"h3": {
@@ -450,7 +450,7 @@
 					"fontSize": "var(--wp--preset--font-size--medium)"
 				},
 				"color": {
-					"text": "var(--wp--preset--color--contrast-2)"
+					"text": "var(--wp--preset--color--contrast)"
 				}
 			},
 			"core/navigation-submenu": {
