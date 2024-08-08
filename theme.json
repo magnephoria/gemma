@@ -5,7 +5,7 @@
 		"appearanceTools": true,
 		"useRootPaddingAwareAlignments": true,
 		"layout": {
-			"contentSize": "720px",
+			"contentSize": "680px",
 			"wideSize": "1400px"
 		},
 		"color": {
@@ -160,9 +160,9 @@
 				{
 					"fluid": {
 						"min": "1.125rem",
-						"max": "1.3125rem"
+						"max": "1.5rem"
 					},
-					"size": "1.3125rem",
+					"size": "1.5rem",
 					"slug": "medium"
 				},
 				{
@@ -214,29 +214,52 @@
 					]
 				},
 				{
-					"fontFamily": "\"Newsreader\", TimesNewRoman, \"Times New Roman\", Times, serif",
-					"name": "Newsreader",
+					"fontFamily": "\"Nyght Serif\", TimesNewRoman, \"Times New Roman\", Times, serif",
+					"name": "Nyght Serif",
 					"slug": "heading",
 					"fontFace": [
 						{
-							"fontFamily": "Newsreader",
-							"fontStretch": "normal",
+							"fontFamily": "Nyght Serif",
 							"fontStyle": "normal",
-							"fontWeight": "200 800",
+							"fontWeight": "300",
 							"src": [
-								"file:./assets/fonts/newsreader/Newsreader[opsz,wght].woff2"
+								"file:./assets/fonts/nyght-serif/NyghtSerif-Light.woff2"
 							]
 						},
 						{
-							"fontFamily": "Newsreader",
-							"fontStretch": "normal",
+							"fontFamily": "Nyght Serif",
 							"fontStyle": "italic",
-							"fontWeight": "200 800",
+							"fontWeight": "300",
 							"src": [
-								"file:./assets/fonts/newsreader/Newsreader-Italic[opsz,wght].woff2"
+								"file:./assets/fonts/nyght-serif/NyghtSerif-LightItalic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Nyght Serif",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/nyght-serif/NyghtSerif-Regular.woff2"
+							]
+						},
+						{
+							"fontFamily": "Nyght Serif",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/nyght-serif/NyghtSerif-RegularItalic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Nyght Serif",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/nyght-serif/NyghtSerif-Bold.woff2"
 							]
 						}
 					]
+					
 				},
 				{
 					"fontFamily": "Arial, FreeSans, \"Helvetica Neue\", Helvetica, sans-serif",
@@ -287,14 +310,14 @@
 			},
 			"h2": {
 				"typography": {
-					"fontWeight": "320",
+					"fontWeight": "300",
 					"lineHeight": "1.2",
 					"fontSize": "var(--wp--preset--font-size--x-large)"
 				}
 			},
 			"h3": {
 				"typography": {
-					"fontWeight": "350",
+					"fontWeight": "400",
 					"lineHeight": "1.2",
 					"fontSize": "var(--wp--preset--font-size--large)"
 				}
@@ -328,7 +351,7 @@
 				},
 				"spacing": {
 					"padding": {
-						"top": "0.6rem !important",
+						"top": "0.5rem !important",
 						"right": "1.7rem !important",
 						"bottom": "0.65rem !important",
 						"left": "1.7rem !important"

@@ -1,9 +1,9 @@
 === Gemma ===
 Contributors: aventurin
 Requires at least: 6.2
-Tested up to: 6.5
+Tested up to: 6.6
 Requires PHP: 7.4
-Stable tag: 0.9.1
+Stable tag: 0.9.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -22,10 +22,10 @@ License: SIL Open Font License, Version 1.1.
 Author: UNCUT.wtf
 Source: https://uncut.wtf/sans-serif/uncut-sans.html
 
-= Newsreader font =
+= Nyght Serif font =
 License: SIL Open Font License, Version 1.1.
-Author: Production Type, Newsreader Project Authors
-Source: http://github.com/productiontype/Newsreader
+Author: Maksym Kobuzan
+Source: https://gitlab.com/mkobuzan/nyght-serif
 
 === Images ===
 
@@ -38,6 +38,12 @@ Banner image in theme screenshot – https://www.pexels.com/photo/woman-touches-
 Many thanks to the WordPress team for the "Twenty Twenty-Four" theme, from which I learned quite a bit about block theme development and best practices.
 
 == Changelog ==
+
+= 0.9.2 =
+* Add 'all-caps' style for paragraph block
+* Add block variation as default for spacer block
+* Tweak spacing and color presets
+* Adjust line below titles
 
 = 0.9.1 =
 * Update to theme.json v3
