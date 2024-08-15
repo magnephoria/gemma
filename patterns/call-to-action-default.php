@@ -25,9 +25,9 @@
 
 	<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
 	<div class="wp-block-buttons">
-		<!-- wp:button {"backgroundColor":"accent","textColor":"contrast","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}}} -->
+		<!-- wp:button -->
 		<div class="wp-block-button"><a
-				class="wp-block-button__link has-contrast-color has-accent-background-color has-text-color has-background has-link-color wp-element-button"
+				class="wp-block-button__link wp-element-button"
 				href="#">Get started</a></div>
 		<!-- /wp:button -->
 

@@ -8,10 +8,16 @@
 
 <!-- wp:group {"layout":{"type":"default"}} -->
 <div class="wp-block-group">
-	<!-- wp:group {"style":{"spacing":{"blockGap":"0.3em"},"typography":{"textTransform":"uppercase","letterSpacing":"0.1em"}},"fontSize":"small","fontFamily":"body","layout":{"type":"flex","justifyContent":"flex-start"}} -->
-	<div class="wp-block-group has-body-font-family has-small-font-size" style="letter-spacing:0.1em;text-transform:uppercase">
-		<!-- wp:post-date {"format":null,"isLink":false} /-->
-	</div>
-	<!-- /wp:group -->
+    <!-- wp:group {"style":{"spacing":{"blockGap":"0.4em"}},"layout":{"type":"flex","justifyContent":"flex-start"}} -->
+    <div class="wp-block-group">
+		<!-- wp:post-date /-->
+
+        <!-- wp:paragraph {"textColor":"contrast-2"} -->
+        <p class="has-contrast-2-color has-text-color">·</p>
+        <!-- /wp:paragraph -->
+
+        <!-- wp:post-terms {"term":"category"} /-->
+    </div>
+    <!-- /wp:group -->
 </div>
 <!-- /wp:group -->
