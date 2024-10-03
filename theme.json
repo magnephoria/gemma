@@ -203,7 +203,7 @@
 				{
 					"fontFamily": "\"Uncut Sans\", Arial, Helvetica Neue, Helvetica, sans-serif",
 					"name": "Uncut Sans",
-					"slug": "body",
+					"slug": "uncut-sans",
 					"fontFace": [
 						{
 							"fontFamily": "Uncut Sans",
@@ -220,7 +220,7 @@
 				{
 					"fontFamily": "\"Nyght Serif\", TimesNewRoman, \"Times New Roman\", Times, serif",
 					"name": "Nyght Serif",
-					"slug": "heading",
+					"slug": "nyght-serif",
 					"fontFace": [
 						{
 							"fontFamily": "Nyght Serif",
@@ -263,7 +263,22 @@
 							]
 						}
 					]
-					
+				},
+				{
+					"fontFamily": "\"Newsreader\", TimesNewRoman, \"Times New Roman\", Times, serif",
+					"name": "Newsreader",
+					"slug": "newsreader",
+					"fontFace": [
+						{
+							"fontFamily": "Newsreader",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "200 800",
+							"src": [
+								"file:./assets/fonts/newsreader/Newsreader[opsz,wght].woff2"
+							]
+						}
+					]
 				},
 				{
 					"fontFamily": "Arial, FreeSans, \"Helvetica Neue\", Helvetica, sans-serif",
@@ -291,7 +306,7 @@
 			}
 		},
 		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--body)",
+			"fontFamily": "var(--wp--preset--font-family--uncut-sans)",
 			"fontWeight": "400",
 			"lineHeight": "1.5",
 			"fontSize": "var(--wp--preset--font-size--medium)"
@@ -299,7 +314,7 @@
 		"elements": {
 			"heading": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--heading)"
+					"fontFamily": "var(--wp--preset--font-family--nyght-serif)"
 				},
 				"color": {
 					"text": "var(--wp--preset--color--contrast)"
@@ -427,7 +442,7 @@
 				},
 				"typography": {
 					"fontFamily": { "ref": "styles.elements.heading.typography.fontFamily" },
-					"fontWeight": "350",
+					"fontWeight": "300",
 					"lineHeight": "1.2",
 					"fontSize": "var(--wp--preset--font-size--large)"
 				}
