@@ -8,49 +8,37 @@
  */
 ?>
 
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50","right":"var:preset|spacing|50"}}},"layout":{"type":"constrained","contentSize":"","wideSize":""}} -->
-<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)">
+<!-- wp:group {"metadata":{"categories":["banner"],"patternName":"gemma/banner-hero","name":"Hero"},"align":"full","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull"><!-- wp:heading {"textAlign":"center","level":1,"align":"wide"} -->
+    <h1 class="wp-block-heading alignwide has-text-align-center">Ein Engagement für Innovation und Nachhaltigkeit</h1>
+    <!-- /wp:heading -->
 
-	<!-- wp:group {"style":{"spacing":{"blockGap":"0px"}},"layout":{"type":"constrained","contentSize":"565px"}} -->
-	<div class="wp-block-group">
+    <!-- wp:group {"layout":{"type":"default"}} -->
+    <div class="wp-block-group"><!-- wp:paragraph {"align":"center"} -->
+        <p class="has-text-align-center">Études ist ein bahnbrechendes Unternehmen, das Kreativität und Funktionalität
+            nahtlos miteinander verbindet, um architektonische Spitzenleistungen neu zu definieren.</p>
+        <!-- /wp:paragraph -->
 
-		<!-- wp:heading {"textAlign":"center","fontSize":"x-large","level":1} -->
-		<h1 class="wp-block-heading has-text-align-center has-x-large-font-size"><?php echo esc_html_x( 'A commitment to innovation and sustainability', 'Heading of the hero section', 'gemma' ); ?></h1>
-		<!-- /wp:heading -->
+        <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
+        <div class="wp-block-buttons">
+            <!-- wp:button {"backgroundColor":"accent-4","textColor":"contrast","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}}} -->
+            <div class="wp-block-button"><a
+                    class="wp-block-button__link has-contrast-color has-accent-4-background-color has-text-color has-background has-link-color wp-element-button"
+                    href="#">About</a></div>
+            <!-- /wp:button -->
+        </div>
+        <!-- /wp:buttons -->
+    </div>
+    <!-- /wp:group -->
 
-		<!-- wp:spacer {"height":"1.25rem"} -->
-		<div style="height:1.25rem" aria-hidden="true" class="wp-block-spacer"></div>
-		<!-- /wp:spacer -->
+    <!-- wp:spacer {"height":"var:preset|spacing|30","style":{"layout":[]}} -->
+    <div style="height:var(--wp--preset--spacing--30)" aria-hidden="true" class="wp-block-spacer"></div>
+    <!-- /wp:spacer -->
 
-		<!-- wp:paragraph {"align":"center"} -->
-		<p class="has-text-align-center"><?php echo esc_html_x( 'Études is a pioneering firm that seamlessly merges creativity and functionality to redefine architectural excellence.', 'Content of the hero section', 'gemma' ); ?></p>
-		<!-- /wp:paragraph -->
-
-		<!-- wp:spacer {"height":"1.25rem"} -->
-		<div style="height:1.25rem" aria-hidden="true" class="wp-block-spacer"></div>
-		<!-- /wp:spacer -->
-
-		<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
-		<div class="wp-block-buttons">
-			<!-- wp:button -->
-			<div class="wp-block-button">
-				<a class="wp-block-button__link wp-element-button"><?php echo esc_html_x( 'About us', 'Button text of the hero section', 'gemma' ); ?></a>
-			</div>
-			<!-- /wp:button -->
-		</div>
-		<!-- /wp:buttons -->
-	</div>
-	<!-- /wp:group -->
-
-	<!-- wp:spacer {"height":"var:preset|spacing|30","style":{"layout":{}}} -->
-	<div style="height:var(--wp--preset--spacing--30)" aria-hidden="true" class="wp-block-spacer">
-	</div>
-	<!-- /wp:spacer -->
-
-	<!-- wp:image {"align":"wide","sizeSlug":"full","linkDestination":"none","className":"is-style-rounded"} -->
-	<figure class="wp-block-image alignwide size-full is-style-rounded">
-		<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/pexels-anderson-cavalera-1856142.webp" alt="<?php esc_attr_e( 'Building exterior in Toronto, Canada', 'gemma' ); ?>" />
-	</figure>
-	<!-- /wp:image -->
+    <!-- wp:image {"sizeSlug":"full","linkDestination":"none","align":"wide","className":"is-style-default"} -->
+    <figure class="wp-block-image alignwide size-full is-style-default"><img
+            src="http://wordpress.lndo.site/wp-content/themes/gemma/assets/images/pexels-anderson-cavalera-1856142.webp"
+            alt="Äußeres Gebäude in Toronto, Kanada" /></figure>
+    <!-- /wp:image -->
 </div>
 <!-- /wp:group -->
