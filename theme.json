@@ -1,6 +1,10 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 3,
+	"patterns": [
+		"three-columns-of-services",
+		"clients-section"
+	],
 	"settings": {
 		"appearanceTools": true,
 		"useRootPaddingAwareAlignments": true,
@@ -72,7 +76,7 @@
 					"slug": "accent"
 				},
 				{
-					"color": "#E8DEC4",
+					"color": "#F9D8AD",
 					"name": "Accent / Two",
 					"slug": "accent-2"
 				},
@@ -310,14 +314,14 @@
 			},
 			"h2": {
 				"typography": {
-					"fontWeight": "400",
+					"fontWeight": "300",
 					"lineHeight": "1.2",
 					"fontSize": "var(--wp--preset--font-size--x-large)"
 				}
 			},
 			"h3": {
 				"typography": {
-					"fontWeight": "400",
+					"fontWeight": "300",
 					"lineHeight": "1.2",
 					"fontSize": "var(--wp--preset--font-size--large)"
 				}
@@ -352,9 +356,9 @@
 				"spacing": {
 					"padding": {
 						"top": "0.5rem !important",
-						"right": "1.7rem !important",
+						"right": "1.1rem !important",
 						"bottom": "0.65rem !important",
-						"left": "1.7rem !important"
+						"left": "1.1rem !important"
 					}
 				},
 				"typography": {
