@@ -1,5 +1,5 @@
 # Gemma
-Gemma is a simple, modern block theme with responsive typography and an elegant style. With the power of Full Site Editing it is perfect for creating versatile and beautiful websites.
+Gemma is an elegant and modern block theme. Create versatile and beautiful websites with the power of the block editor.
 
 ![Screenshot](https://github.com/magnephoria/gemma/blob/main/screenshot.png)
 

@@ -3,7 +3,7 @@ Contributors: aventurin
 Requires at least: 6.2
 Tested up to: 6.6
 Requires PHP: 7.4
-Stable tag: 0.9.2
+Stable tag: 0.9.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -27,17 +27,16 @@ License: SIL Open Font License, Version 1.1.
 Author: Maksym Kobuzan
 Source: https://gitlab.com/mkobuzan/nyght-serif
 
-=== Images ===
-
-License: https://www.pexels.com/license/
-
-Banner image in theme screenshot – https://www.pexels.com/photo/woman-touches-her-chin-using-her-right-hand-1856142/
-
 == Special Thanks ==
 
 Many thanks to the WordPress team for the "Twenty Twenty-Four" theme, from which I learned quite a bit about block theme development and best practices.
 
 == Changelog ==
+
+= 0.9.3 =
+* Optimize spacings and typography for responsive design
+* Update patterns and templates
+* Refine layouts
 
 = 0.9.2 =
 * Add 'all-caps' style for paragraph block
