@@ -1,15 +1,15 @@
 === Gemma ===
 Contributors: aventurin
 Requires at least: 6.2
-Tested up to: 6.6
+Tested up to: 6.7
 Requires PHP: 7.4
-Stable tag: 0.9.4
+Stable tag: 0.9.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Gemma is an elegantly styled and modern block theme. Create versatile and beautiful websites with the power of the block editor.
+A modern block theme with an elegant and clean style. Create versatile and beautiful websites with the power of the block editor.
 
 == Resources ==
 
@@ -34,9 +34,13 @@ Source: http://github.com/productiontype/Newsreader
 
 == Special Thanks ==
 
-Many thanks to the WordPress team for the "Twenty Twenty-Four" theme, from which I learned quite a bit about block theme development and best practices.
+Many thanks to the WordPress team for the "Twenty Twenty-Four" and "Twenty Twenty-Five" themes, from which I learned quite a bit about block theme development and best practices.
 
 == Changelog ==
+
+= 0.9.5 =
+* Add new hero pattern
+* Fix styling and accessibility issues for quote blocks
 
 = 0.9.4 =
 * Add new style
