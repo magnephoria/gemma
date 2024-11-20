@@ -514,14 +514,15 @@
 			"core/quote": {
 				"typography": {
 					"fontFamily": { "ref": "styles.typography.fontFamily" },
-					"fontSize": "var(--wp--preset--font-size--medium)"
+					"fontSize": "var(--wp--preset--font-size--medium)",
+					"fontWeight": "600"
 				},
 				"color": {
-					"text": "var(--wp--preset--color--contrast-2)"
+					"text": "var(--wp--preset--color--contrast)"
 				},
 				"border": {
 					"width": "0 0 0 1px",
-					"color": "var(--wp--preset--color--accent)",
+					"color": "var(--wp--preset--color--contrast)",
 					"style": "solid"
 				},
 				"elements": {
@@ -529,12 +530,13 @@
 						"typography": {
 							"fontFamily": { "ref": "styles.typography.fontFamily" },
 							"fontSize": "var(--wp--preset--font-size--small)",
+							"fontWeight": "400",
 							"fontStyle": "normal",
 							"textTransform": "uppercase",
 							"letterSpacing": "0.04em"
 						},
 						"color": {
-							"text": "var(--wp--preset--color--contrast)"
+							"text": "var(--wp--preset--color--contrast-2)"
 						}
 					}
 				},
@@ -560,27 +562,29 @@
 			},
 			"core/pullquote": {
 				"typography": {
-					"fontFamily": { "ref": "styles.elements.heading.typography.fontFamily" }
+					"fontFamily": { "ref": "styles.elements.heading.typography.fontFamily" },
+					"fontSize": "var(--wp--preset--font-size--large)"
 				},
 				"color": {
-					"text": "var(--wp--preset--color--accent)"
+					"text": "var(--wp--preset--color--contrast)"
 				},
 				"border": {
 					"style": "solid",
-					"width": "2px 0",
-					"color": "var(--wp--preset--color--accent)"
+					"width": "1px 0",
+					"color": "var(--wp--preset--color--contrast)"
 				},
 				"elements": {
 					"cite": {
 						"typography": {
 							"fontFamily": { "ref": "styles.typography.fontFamily" },
 							"fontSize": "var(--wp--preset--font-size--small)",
+							"fontWeight": "400",
 							"fontStyle": "normal",
 							"textTransform": "uppercase",
 							"letterSpacing": "0.04em"
 						},
 						"color": {
-							"text": "var(--wp--preset--color--contrast)"
+							"text": "var(--wp--preset--color--contrast-2)"
 						}
 					}
 				},
