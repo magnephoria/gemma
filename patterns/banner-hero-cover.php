@@ -20,11 +20,11 @@
         <!-- wp:group {"align":"full","layout":{"type":"constrained"}} -->
         <div class="wp-block-group alignfull">
             <!-- wp:paragraph {"align":"center","className":"is-style-all-caps","fontSize":"small"} -->
-            <p class="has-text-align-center is-style-all-caps has-small-font-size">Science & Art</p>
+            <p class="has-text-align-center is-style-all-caps has-small-font-size">Philosophy & Art</p>
             <!-- /wp:paragraph -->
 
             <!-- wp:heading {"textAlign":"center","level":1,"align":"wide"} -->
-            <h1 class="wp-block-heading alignwide has-text-align-center">The Philosopher's Stone</h1>
+            <h1 class="wp-block-heading alignwide has-text-align-center">Radiance in Stone</h1>
             <!-- /wp:heading -->
 
             <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
