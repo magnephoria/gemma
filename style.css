@@ -5,11 +5,20 @@
 	Author URI: https://dennis-seid.de/
 	Description: A modern block theme with an elegant and clean style. Create versatile and beautiful websites with the power of the block editor. ✴︎ https://dennis-seid.de/themes/gemma/.
 	Requires at least: 6.2
-	Tested up to: 6.7
+	Tested up to: 6.8
 	Requires PHP: 7.4
-	Version: 0.9.5
+	Version: 0.9.6
 	License: GNU General Public License v2 or later
 	License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	Text Domain: gemma
 	Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, accessibility-ready, blog, portfolio, news
 */
+
+/*
+ * Link styles
+ * https://github.com/WordPress/gutenberg/issues/42319
+ */
+a {
+	text-decoration-thickness: 1px !important;
+	text-underline-offset: .2em;
+}
