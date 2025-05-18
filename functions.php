@@ -19,6 +19,49 @@ function gemma_load_theme_textdomain() {
 add_action( 'after_setup_theme', 'gemma_load_theme_textdomain' );
 
 /**
+ * Enqueues style.css on the front.
+ */
+
+ if ( ! function_exists( 'gemma_enqueue_styles' ) ) :
+	/**
+	 * Enqueues style.css on the front.
+	 *
+	 * @since Gemma 0.9.6
+	 *
+	 * @return void
+	 */
+	function gemma_enqueue_styles() {
+		wp_enqueue_style(
+			'gemma-style',
+			get_parent_theme_file_uri( 'style.css' ),
+			array(),
+			wp_get_theme()->get( 'Version' )
+		);
+	}
+endif;
+
+add_action( 'wp_enqueue_scripts', 'gemma_enqueue_styles' );
+
+/**
+ * Enqueues editor-style.css in the editors.
+ */
+
+if ( ! function_exists( 'gemma_editor_style' ) ) :
+	/**
+	 * Enqueues editor-style.css in the editors.
+	 *
+	 * @since Gemma 0.9.6
+	 *
+	 * @return void
+	 */
+	function gemma_editor_style() {
+		add_editor_style( get_parent_theme_file_uri( 'assets/css/editor-style.css' ) );
+	}
+endif;
+
+add_action( 'after_setup_theme', 'gemma_editor_style' );
+
+/**
  * Enqueue block variations.
  */
 
@@ -134,7 +177,7 @@ if ( ! function_exists( 'gemma_block_styles' ) ) :
 				'inline_style' => '
 				:root :where(.is-style-all-caps) {
 					text-transform: uppercase;
-					letter-spacing: 0.1em;
+					letter-spacing: 0.2rem;
 					font-feature-settings: "case" 1;
 				}',
 			)
