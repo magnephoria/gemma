@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: Header, 2 columns
- * Slug: gemma/header-2-col
+ * Title: Header, minimal
+ * Slug: gemma/header-minimal
  * Categories: header
  * Block Types: core/template-part/header
  */
@@ -15,16 +15,7 @@
         style="padding-top:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20)">
         <!-- wp:site-title {"level":0} /-->
 
-        <!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap"}} -->
-            <div class="wp-block-group">
-                <!-- wp:navigation {"layout":{"type":"flex","setCascadingProperties":"true","justifyContent":"left","orientation":"horizontal","flexWrap":"wrap"}} /-->
-        
-            <!-- wp:buttons -->
-            <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-outline"} -->
-            <div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="#">Get started</a></div>
-            <!-- /wp:button --></div>
-            <!-- /wp:buttons --></div>
-        <!-- /wp:group -->
+        <!-- wp:navigation {"overlayBackgroundColor":"accent","layout":{"type":"flex","setCascadingProperties":"true","justifyContent":"left","orientation":"horizontal","flexWrap":"wrap"}} /-->
     </div>
     <!-- /wp:group -->
 </div>

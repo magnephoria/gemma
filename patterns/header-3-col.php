@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: Default Header
- * Slug: gemma/header-default
+ * Title: Header, 3 columns
+ * Slug: gemma/header-3-col
  * Categories: header
  * Block Types: core/template-part/header
  */
