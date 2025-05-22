@@ -3,7 +3,7 @@ Contributors: aventurin
 Requires at least: 6.2
 Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 0.9.6
+Stable tag: 0.9.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -37,6 +37,11 @@ Source: http://github.com/productiontype/Newsreader
 Many thanks to the WordPress team for the "Twenty Twenty-Four" and "Twenty Twenty-Five" themes, from which I learned quite a bit about block theme development and best practices.
 
 == Changelog ==
+
+= 0.9.7 =
+* Update link styles
+* Update button styles
+* Add minimal header as default
 
 = 0.9.6 =
 * Update typography
