@@ -16,8 +16,8 @@
     <!-- /wp:separator -->
 
     <!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
-    <div class="wp-block-group alignwide"><!-- wp:paragraph {"className":"is-style-all-caps","fontSize":"medium"} -->
-        <p class="is-style-all-caps has-medium-font-size">Features</p>
+    <div class="wp-block-group alignwide"><!-- wp:paragraph {"className":"is-style-all-caps"} -->
+        <p class="is-style-all-caps">Features</p>
         <!-- /wp:paragraph -->
     </div>
     <!-- /wp:group -->
@@ -28,8 +28,8 @@
 
     <!-- wp:columns {"align":"wide"} -->
     <div class="wp-block-columns alignwide"><!-- wp:column -->
-        <div class="wp-block-column"><!-- wp:heading {"level":3,"fontSize":"x-large"} -->
-            <h3 class="wp-block-heading has-x-large-font-size">Flexible</h3>
+        <div class="wp-block-column"><!-- wp:heading {"level":2,"fontSize":"x-large"} -->
+            <h2 class="wp-block-heading has-x-large-font-size">Flexible</h2>
             <!-- /wp:heading -->
 
             <!-- wp:paragraph -->
@@ -39,8 +39,8 @@
         <!-- /wp:column -->
 
         <!-- wp:column -->
-        <div class="wp-block-column"><!-- wp:heading {"level":3,"fontSize":"x-large"} -->
-            <h3 class="wp-block-heading has-x-large-font-size">Beautiful</h3>
+        <div class="wp-block-column"><!-- wp:heading {"level":2,"fontSize":"x-large"} -->
+            <h2 class="wp-block-heading has-x-large-font-size">Beautiful</h2>
             <!-- /wp:heading -->
 
             <!-- wp:paragraph -->
@@ -50,8 +50,8 @@
         <!-- /wp:column -->
 
         <!-- wp:column -->
-        <div class="wp-block-column"><!-- wp:heading {"level":3,"fontSize":"x-large"} -->
-            <h3 class="wp-block-heading has-x-large-font-size">Open Source</h3>
+        <div class="wp-block-column"><!-- wp:heading {"level":2,"fontSize":"x-large"} -->
+            <h2 class="wp-block-heading has-x-large-font-size">Open Source</h2>
             <!-- /wp:heading -->
 
             <!-- wp:paragraph -->
