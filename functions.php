@@ -55,7 +55,7 @@ if ( ! function_exists( 'gemma_editor_style' ) ) :
 	 * @return void
 	 */
 	function gemma_editor_style() {
-		add_editor_style( get_parent_theme_file_uri( 'assets/css/editor-style.css' ) );
+		add_editor_style( 'assets/css/editor-style.css' );
 	}
 endif;
 
@@ -179,6 +179,7 @@ if ( ! function_exists( 'gemma_block_styles' ) ) :
 					text-transform: uppercase;
 					letter-spacing: 0.2rem;
 					font-feature-settings: "case" 1;
+					font-size: var(--wp--preset--font-size--small);
 				}',
 			)
 		);
