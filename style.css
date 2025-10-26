@@ -7,7 +7,7 @@
 	Requires at least: 6.2
 	Tested up to: 6.8
 	Requires PHP: 7.4
-	Version: 0.9.7
+	Version: 0.9.8
 	License: GNU General Public License v2 or later
 	License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	Text Domain: gemma
@@ -21,4 +21,11 @@
 a {
 	text-decoration-thickness: 1px !important;
 	text-underline-offset: .2em;
+}
+
+/*
+ * Add spacing above post content headings for better typography
+ */
+.wp-block-post-content.is-layout-constrained > :where(h1, h2, h3, h4, h5, h6) {
+	margin-block-start: var(--wp--preset--spacing--50);
 }
