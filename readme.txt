@@ -3,7 +3,7 @@ Contributors: aventurin
 Requires at least: 6.2
 Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 0.9.7
+Stable tag: 0.9.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -17,6 +17,11 @@ This theme bundles the following third-party resources:
 
 === Fonts ===
 
+= Work Sans font =
+License: SIL Open Font License, Version 1.1.
+Author: Wei H, Work Sans Project Authors
+Source: https://github.com/weiweihuanghuang/Work-Sans
+
 = Uncut Sans font =
 License: SIL Open Font License, Version 1.1.
 Author: UNCUT.wtf
@@ -26,6 +31,11 @@ Source: https://uncut.wtf/sans-serif/uncut-sans.html
 License: SIL Open Font License, Version 1.1.
 Author: Maksym Kobuzan
 Source: https://gitlab.com/mkobuzan/nyght-serif
+
+= Cormorant font =
+License: SIL Open Font License, Version 1.1.
+Author: Christian Thalmann, Catharsis Fonts
+Source: https://github.com/CatharsisFonts/Cormorant
 
 = Newsreader font =
 License: SIL Open Font License, Version 1.1.
@@ -37,6 +47,12 @@ Source: http://github.com/productiontype/Newsreader
 Many thanks to the WordPress team for the "Twenty Twenty-Four" and "Twenty Twenty-Five" themes, from which I learned quite a bit about block theme development and best practices.
 
 == Changelog ==
+
+= 0.9.8 =
+* Update hero image
+* Update fonts
+* Add new gradients
+* Add spacing above post content headings for better typography
 
 = 0.9.7 =
 * Update link styles
