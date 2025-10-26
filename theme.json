@@ -21,27 +21,37 @@
 				{
 					"slug": "gradient-1",
 					"gradient": "linear-gradient(45deg, var(--wp--preset--color--accent) 0%, var(--wp--preset--color--accent-2) 100%)",
-					"name": "Accent to Accent / Two"
+					"name": "Accent to Accent 2"
 				},
 				{
 					"slug": "gradient-2",
 					"gradient": "linear-gradient(45deg, var(--wp--preset--color--accent) 0%, var(--wp--preset--color--accent-3) 100%)",
-					"name": "Accent to Accent / Three"
+					"name": "Accent to Accent 3"
 				},
 				{
 					"slug": "gradient-3",
 					"gradient": "linear-gradient(45deg, var(--wp--preset--color--accent-3) 0%, var(--wp--preset--color--accent-4) 100%)",
-					"name": "Accent / Three to Accent / Four"
+					"name": "Accent 3 to Accent 4"
 				},
 				{
 					"slug": "gradient-4",
 					"gradient": "linear-gradient(45deg, var(--wp--preset--color--accent) 0%, var(--wp--preset--color--accent-4) 100%)",
-					"name": "Accent to Accent / Four"
+					"name": "Accent to Accent 4"
 				},
 				{
 					"slug": "gradient-5",
 					"gradient": "linear-gradient(45deg, var(--wp--preset--color--accent) 0%, var(--wp--preset--color--accent-5) 100%)",
-					"name": "Accent to Accent / Five"
+					"name": "Accent to Accent 5"
+				},
+				{
+					"slug": "gradient-6",
+					"gradient": "linear-gradient(45deg, var(--wp--preset--color--accent-5) 0%, var(--wp--preset--color--accent) 31%, var(--wp--preset--color--accent-5) 72%, var(--wp--preset--color--accent-3) 88%, var(--wp--preset--color--accent-2) 100%)",
+					"name": "Gradient 6"
+				},
+				{
+					"slug": "gradient-7",
+					"gradient": "linear-gradient(45deg, var(--wp--preset--color--accent-5) 0%, var(--wp--preset--color--accent-2) 31%, var(--wp--preset--color--accent-5) 72%, var(--wp--preset--color--accent-3) 88%, var(--wp--preset--color--accent-2) 100%)",
+					"name": "Gradient 7"
 				}
 			],
 			"palette": [
@@ -52,7 +62,7 @@
 				},
 				{
 					"color": "#FFFFFF",
-					"name": "Base / Two",
+					"name": "Base 2",
 					"slug": "base-2"
 				},
 				{
@@ -62,12 +72,12 @@
 				},
 				{
 					"color": "#524D41",
-					"name": "Contrast / Two",
+					"name": "Contrast 2",
 					"slug": "contrast-2"
 				},
 				{
 					"color": "#A79F90",
-					"name": "Contrast / Three",
+					"name": "Contrast 3",
 					"slug": "contrast-3"
 				},
 				{
@@ -77,22 +87,22 @@
 				},
 				{
 					"color": "#F9D8AD",
-					"name": "Accent / Two",
+					"name": "Accent 2",
 					"slug": "accent-2"
 				},
 				{
 					"color": "#E0CCD5",
-					"name": "Accent / Three",
+					"name": "Accent 3",
 					"slug": "accent-3"
 				},
 				{
 					"color": "#D1CDDF",
-					"name": "Accent / Four",
+					"name": "Accent 4",
 					"slug": "accent-4"
 				},
 				{
 					"color": "#C8DCE4",
-					"name": "Accent / Five",
+					"name": "Accent 5",
 					"slug": "accent-5"
 				}
 			],
@@ -164,9 +174,9 @@
 				{
 					"fluid": {
 						"min": "1.125rem",
-						"max": "1.5rem"
+						"max": "1.3125rem"
 					},
-					"size": "1.5rem",
+					"size": "1.3125rem",
 					"slug": "medium"
 				},
 				{
@@ -213,6 +223,49 @@
 							"fontWeight": "300 700",
 							"src": [
 								"file:./assets/fonts/uncut-sans/UncutSans-Variable.woff2"
+							]
+						}
+					]
+				},
+				{
+					"fontFamily": "\"Work Sans\", Arial, Helvetica Neue, Helvetica, sans-serif",
+					"name": "Work Sans",
+					"slug": "work-sans",
+					"fontFace": [
+						{
+							"fontFamily": "Work Sans",
+							"fontStyle": "normal",
+							"fontFeatureSettings": "'ss01' 1, 'ss06' 0",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/work-sans/WorkSans-Regular.woff2"
+							]
+						},
+						{
+							"fontFamily": "Work Sans",
+							"fontStyle": "italic",
+							"fontFeatureSettings": "'ss01' 1, 'ss06' 0",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/work-sans/WorkSans-Italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Work Sans",
+							"fontStyle": "normal",
+							"fontFeatureSettings": "'ss01' 1, 'ss06' 0",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/work-sans/WorkSans-SemiBold.woff2"
+							]
+						},
+						{
+							"fontFamily": "Work Sans",
+							"fontStyle": "italic",
+							"fontFeatureSettings": "'ss01' 1, 'ss06' 0",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/work-sans/WorkSans-SemiBoldItalic.woff2"
 							]
 						}
 					]
@@ -265,6 +318,22 @@
 					]
 				},
 				{
+					"fontFamily": "\"Cormorant\", TimesNewRoman, \"Times New Roman\", Times, serif",
+					"name": "Cormorant",
+					"slug": "cormorant",
+					"fontFace": [
+						{
+							"fontFamily": "Cormorant",
+							"fontStyle": "normal",
+							"fontFeatureSettings": "'ss01' 1, 'ss02' 1",
+							"fontWeight": "300 700",
+							"src": [
+								"file:./assets/fonts/cormorant/Cormorant[wght].woff2"
+							]
+						}
+					]
+				},
+				{
 					"fontFamily": "\"Newsreader\", TimesNewRoman, \"Times New Roman\", Times, serif",
 					"name": "Newsreader",
 					"slug": "newsreader",
@@ -305,7 +374,7 @@
 			}
 		},
 		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--uncut-sans)",
+			"fontFamily": "var(--wp--preset--font-family--work-sans)",
 			"fontWeight": "400",
 			"lineHeight": "1.6",
 			"fontSize": "var(--wp--preset--font-size--medium)"
@@ -313,7 +382,8 @@
 		"elements": {
 			"heading": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--newsreader)"
+					"fontFamily": "var(--wp--preset--font-family--cormorant)",
+					"fontStyle": "normal"
 				},
 				"color": {
 					"text": "var(--wp--preset--color--contrast)"
@@ -321,42 +391,45 @@
 			},
 			"h1": {
 				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--nyght-serif)",
+					"fontStyle": "normal",
 					"fontWeight": "300",
 					"lineHeight": "1.2",
+					"letterSpacing": ".025em",
 					"fontSize": "var(--wp--preset--font-size--xx-large)"
 				}
 			},
 			"h2": {
 				"typography": {
-					"fontWeight": "350",
-					"lineHeight": "1.3",
+					"fontWeight": "500",
+					"lineHeight": "1.2",
 					"fontSize": "var(--wp--preset--font-size--x-large)"
 				}
 			},
 			"h3": {
 				"typography": {
-					"fontWeight": "350",
-					"lineHeight": "1.3",
+					"fontWeight": "600",
+					"lineHeight": "1.2",
 					"fontSize": "var(--wp--preset--font-size--large)"
 				}
 			},
 			"h4": {
 				"typography": {
-					"fontWeight": "450",
+					"fontWeight": "650",
 					"lineHeight": "1.5",
 					"fontSize": "var(--wp--preset--font-size--medium)"
 				}
 			},
 			"h5": {
 				"typography": {
-					"fontWeight": "500",
+					"fontWeight": "650",
 					"lineHeight": "1.2",
 					"fontSize": "var(--wp--preset--font-size--small)"
 				}
 			},
 			"h6": {
 				"typography": {
-					"fontWeight": "500",
+					"fontWeight": "700",
 					"lineHeight": "1.2",
 					"textTransform": "uppercase",
 					"letterSpacing": "0.04em",
@@ -395,7 +468,7 @@
 						"textDecoration": "underline"
 					}
 				},
-				"css": "& {transition: 0.45s all ease-out;} &:hover {transform: translateY(-2px);}"
+				"css": "& {transition: .3s all ease-in-out;} &:hover {transform: translateY(-1px);}"
 			},
 			"link": {
 				"typography": {
@@ -414,9 +487,10 @@
 		"blocks": {
 			"core/site-title": {
 				"typography": {
-					"fontFamily": { "ref": "styles.elements.heading.typography.fontFamily" },
+					"fontFamily": { "ref": "styles.elements.h1.typography.fontFamily" },
 					"fontWeight": "350",
 					"lineHeight": "1.2",
+					"letterSpacing": { "ref": "styles.elements.h1.typography.letterSpacing" },
 					"fontSize": "var(--wp--preset--font-size--large)"
 				},
 				"elements": {
@@ -597,8 +671,7 @@
 				"elements": {
 					"link": {
 						"typography": {
-							"fontFamily": { "ref": "styles.elements.heading.typography.fontFamily" },
-							"fontSize": "var(--wp--preset--font-size--medium)"
+							"fontSize": "var(--wp--preset--font-size--small)"
 						}
 					}
 				},
@@ -610,7 +683,8 @@
 						"left": "var(--wp--preset--spacing--40)",
 						"right": "var(--wp--preset--spacing--40)"
 					}
-				}
+				},
+				"css": ".wp-block-cover-image.is-light:not(.has-text-color), .wp-block-cover.is-light:not(.has-text-color) { color: var(--wp--preset--color--contrast); }"
 			},
 			"core/avatar": {
 				"border": {
@@ -659,9 +733,7 @@
 					}
 				},
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--small)",
-					"textTransform": "uppercase",
-					"letterSpacing": "0.04em"
+					"fontSize": "var(--wp--preset--font-size--small)"
 				}
 			},
 			"core/post-navigation-link": {
